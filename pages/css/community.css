@@ -1,0 +1,58 @@
+@charset "uft-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: Montserrat;
+    margin: 0.5vh;
+    font-size: large;
+}
+
+.Text{
+    text-align: center;
+    padding-top: 15px;
+}
+
+.Content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}   
+
+#Logo{
+    height: 50px;
+    width: 50px;
+}
+
+.Community{
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+    background-color: rgb(236, 236, 236);
+    border-radius: 1em;
+}
+
+#Logo{
+    height: 50px;
+    width: 50px;
+}
+
+.Button img{
+    height: 15px;
+    margin: 0px;
+    padding-right: 10px;
+}
+
+.Button {
+    display: flex;
+    border-radius: 0.5em;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(224, 165, 36);
+    border: 0px;
+    padding: 5px 20px;
+    text-align: center;
+    cursor: pointer;
+}
