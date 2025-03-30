@@ -71,3 +71,19 @@ a{
     height: 50px;
     width: 50px;
 }
+
+@media screen and (max-width: 800px) {
+    .Buttons{
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .Buttons{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+}
