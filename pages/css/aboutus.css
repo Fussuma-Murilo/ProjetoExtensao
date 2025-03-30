@@ -8,6 +8,11 @@
     
 }
 
+a{
+    color: black;
+    text-decoration: none;
+}
+
 .Content{
     display: flex;
     flex-direction: column;
